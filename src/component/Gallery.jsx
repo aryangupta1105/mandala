@@ -12,7 +12,7 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto max-w-6xl py-12 px-4 relative">
-      <div className="text-center mt-12 lg:mt-16 mb-12">
+      <div className="text-center mt-0 lg:mt-0 mb-12">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto relative">
           {/* Top Left Quote */}
           <div className="absolute left-58 -top-3">
@@ -91,9 +91,11 @@ const Gallery = () => {
         >
           This may be the sign you're waiting for.
         </p>
-        <button className="bg-[#CC7A00] text-white px-6 py-3 cursor-pointer rounded-lg text-lg font-semibold hover:bg-[#4d2f00] transition-colors">
-          Book Complimentary 1:1 Session
-        </button>
+        <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+          <button className="bg-[#CC7A00] text-white px-6 py-3 cursor-pointer rounded-lg text-lg font-semibold hover:bg-[#4d2f00] transition-colors">
+            Book Complimentary 1:1 Session
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -112,14 +112,14 @@ const MandalaMethod = () => {
                                 fontFamily: "'Lato', sans-serif",
                                 fontWeight: 400,
                                 fontStyle: 'normal',
-                                fontSize: '18px',
+                                fontSize: '22px',
                                 lineHeight: '100%',
                                 letterSpacing: '0%',
                                 maxWidth: '48rem',
                                 color: '#664000',
                             }}
                         >
-                            To guide individuals—<span style={{ color: '#CC7A00' }}>especially men</span>—toward rediscovering their <span style={{ color: '#CC7A00' }}>inner compass</span>, and to <span style={{ color: '#CC7A00' }}>create safe spaces</span> for open-hearted dialogue.
+                            To guide individuals—<span style={{ color: '#CC7A00' }}>for men & women</span>—toward rediscovering their <span style={{ color: '#CC7A00' }}>inner compass</span>, and to <span style={{ color: '#CC7A00' }}>create safe spaces</span> for open-hearted dialogue.
                         </p>
 
                     </div>
@@ -128,33 +128,34 @@ const MandalaMethod = () => {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                    <button
-                        className="text-[#CC7A00] text-lg font-medium cursor-pointer rounded-lg transition-all duration-300 transform"
-                        style={{
-                            width: "230px",
-                            height: "56px",
-                            paddingTop: "16px",
-                            paddingRight: "24px",
-                            paddingBottom: "16px",
-                            paddingLeft: "24px",
-                            background: "#CC7A001F",
-                            borderRadius: "8px",
-                            borderWidth: "1px",
-                            borderStyle: "solid",
-                            borderColor: "#CC7A0052",
-                            boxShadow: "0px 8px 24px 0px #995C001A",
-                            opacity: 1,
-                            fontFamily: "'Lato', sans-serif",
-                            fontWeight: 700,
-                            fontStyle: "normal",
-                            fontSize: "16px",
-                            lineHeight: "100%",
-                            letterSpacing: "0%",
-                        }}
-                    >
-                        Book a Session
-                    </button>
-
+                    <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                        <button
+                            className="text-[#CC7A00] text-lg font-medium cursor-pointer rounded-lg transition-all duration-300 transform"
+                            style={{
+                                width: "230px",
+                                height: "56px",
+                                paddingTop: "16px",
+                                paddingRight: "24px",
+                                paddingBottom: "16px",
+                                paddingLeft: "24px",
+                                background: "#CC7A001F",
+                                borderRadius: "8px",
+                                borderWidth: "1px",
+                                borderStyle: "solid",
+                                borderColor: "#CC7A0052",
+                                boxShadow: "0px 8px 24px 0px #995C001A",
+                                opacity: 1,
+                                fontFamily: "'Lato', sans-serif",
+                                fontWeight: 700,
+                                fontStyle: "normal",
+                                fontSize: "16px",
+                                lineHeight: "100%",
+                                letterSpacing: "0%",
+                            }}
+                        >
+                            Book a Session
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

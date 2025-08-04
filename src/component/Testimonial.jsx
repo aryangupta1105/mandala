@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const TestimonialsSection = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
     const testimonials = [
         {
             text: "Clay didn't try to fix me. He listened. And that was everything.",
@@ -38,31 +36,13 @@ const TestimonialsSection = () => {
         }
     ];
 
-    // Auto-advance testimonials every 4 seconds
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) =>
-                prevIndex + 4 >= testimonials.length ? 0 : prevIndex + 4
-            );
-        }, 4000);
+    // Duplicate testimonials for seamless loop
+    const duplicatedTestimonials = [...testimonials, ...testimonials];
 
-        return () => clearInterval(interval);
-    }, [testimonials.length]);
-
-    const getVisibleTestimonials = () => {
-        const visible = [];
-        for (let i = 0; i < 4; i++) {
-            const index = (currentIndex + i) % testimonials.length;
-            visible.push(testimonials[index]);
-        }
-        return visible;
-    };
-
-    const TestimonialCard = ({ testimonial, delay }) => (
+    const TestimonialCard = ({ testimonial }) => (
         <div
             className="relative flex-shrink-0 mx-2"
             style={{
-                animationDelay: `${delay}s`,
                 width: '334.5px',
                 height: '275.25px'
             }}
@@ -131,7 +111,6 @@ const TestimonialsSection = () => {
                         </svg>
                     </div>
 
-
                     {/* Testimonial Text */}
                     <p
                         className="mb-6 flex-grow flex items-center"
@@ -147,7 +126,6 @@ const TestimonialsSection = () => {
                     >
                         {testimonial.text}
                     </p>
-
 
                     {/* Author */}
                     <div className="flex items-center mt-auto ">
@@ -172,12 +150,11 @@ const TestimonialsSection = () => {
                                 letterSpacing: '0%',
                                 textAlign: 'center',
                                 color: '#664000',
-                                display: 'block', // Ensures text-align works
+                                display: 'block',
                             }}
                         >
                             → {testimonial.author}
                         </span>
-
                     </div>
                 </div>
             </div>
@@ -186,6 +163,25 @@ const TestimonialsSection = () => {
 
     return (
         <div className="py-12 px-4 overflow-hidden">
+            <style jsx>{`
+                @keyframes scroll-left {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+                
+                .scroll-animation {
+                    animation: scroll-left 40s linear infinite;
+                }
+                
+                .scroll-animation:hover {
+                    animation-play-state: paused;
+                }
+            `}</style>
+            
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-left mb-12">
@@ -219,23 +215,15 @@ const TestimonialsSection = () => {
                             </svg>
                         </span>
                     </h2>
-
-
                 </div>
 
                 {/* Testimonials Row */}
                 <div className="relative">
-                    <div
-                        className="flex transition-transform duration-1000 ease-in-out"
-                        style={{
-                            transform: `translateX(-${currentIndex * (100 / 4)}%)`
-                        }}
-                    >
-                        {testimonials.map((testimonial, index) => (
+                    <div className="flex scroll-animation">
+                        {duplicatedTestimonials.map((testimonial, index) => (
                             <TestimonialCard
                                 key={index}
                                 testimonial={testimonial}
-                                delay={index * 0.1}
                             />
                         ))}
                     </div>

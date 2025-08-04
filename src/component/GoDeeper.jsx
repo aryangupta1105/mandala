@@ -3,7 +3,7 @@ import React from 'react';
 const GoDeeperSection = () => {
   return (
     <div className=" py-24 px-4 -mt-16">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
@@ -41,7 +41,7 @@ const GoDeeperSection = () => {
           </div>
 
           <p
-            className="max-w-4xl mx-auto text-center"
+            className="max-w-7xl mx-auto text-center"
             style={{
               fontFamily: '"Lato", sans-serif',
               fontWeight: 600,
@@ -61,7 +61,7 @@ const GoDeeperSection = () => {
 
         {/* Website Preview */}
         <div className="relative flex justify-center mb-8">
-          <div className="relative w-[603px] h-[400px]">
+          <div className="relative w-[643px] h-[420px]">
             {/* Browser Frame */}
             <div className="overflow-hidden w-full h-full rounded-[16px]">
               {/* Website Content */}

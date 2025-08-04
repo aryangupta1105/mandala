@@ -32,13 +32,13 @@ const MeetClayBoykin = () => {
                     </div>
 
                     <p className="text-center text-[22px] leading-[100%] font-semibold text-[#66400080] max-w-4xl mx-auto font-lato">
-                        Founder of The Mandala Within™ — a guide for men on the path inward.
+                        Founder of The Mandala Within™ — a guide for men & women on the path inward.
                     </p>
 
                 </div>
 
                 {/* Main Content */}
-                <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-12 max-w-5xl mx-auto">
+                <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-12 max-w-6xl mx-auto">
                     {/* Left Side - Photo Collage */}
                     <div className="relative">
                         {/* Photo Frame Container */}
@@ -86,19 +86,19 @@ const MeetClayBoykin = () => {
                             }}
                         >
                             <p>
-                                A <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>Former Marine officer</span> & corporate executive with over <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>38 years in the business world</span>, <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>Clay reached a point of profound burnout</span> & <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>spiritual disconnection</span>. His <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>soul whispered</span> what his mind ignored: <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>"This isn't it."</span>
+                                How's This: Clay Boykin redefines what it means to be a transformational coach. A former Marine officer and corporate executive with nearly four decades in the business world, Clay reached a point of profound burnout and spiritual disconnection. His soul whispered what his mind had long ignored: “This isn’t it.”
                             </p>
 
                             <p>
-                                That inner whisper sparked a years-long inward journey. <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>One that led him beyond boardrooms & battlefields, into meditation halls, men's circles</span>, & <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>spiritual studies</span>.
+                                That whisper sparked many years of deep inner work—beyond titles and tactics—into meditation halls, men’s circles, ancient wisdom traditions, and spiritual exploration.
                             </p>
 
                             <p>
-                                Clay eventually founded The Men's Fellowship Network & developed <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>The Mandala Within™</span> — <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>a holistic approach for men seeking emotional wholeness, spiritual balance, & authentic self-leadership</span>.
+                                Clay eventually founded the Men’s Fellowship Network and developed The Mandala Within™—a holistic framework for emotional wholeness, spiritual balance, and authentic self-leadership.
                             </p>
 
                             <p>
-                                Today, <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>Clay works with men</span> from all walks of life <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>to help them reclaim their center</span>, <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>soften their armor</span>, & <span style={{ fontWeight: 700, fontStyle: 'italic', color: '#664000' }}>lead with the heart</span>.
+                                Today, he works with individuals across the gender spectrum to help them reclaim their center and rediscover clarity, meaning, and purpose—for a more fulfilling life.
                             </p>
                         </div>
                     </div>

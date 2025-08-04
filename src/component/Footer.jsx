@@ -116,55 +116,55 @@ export default function MandalaFooter() {
 
           {/* Books Column */}
           <div className="relative">
-  <h4
-    className="uppercase mb-4 tracking-wide text-[rgba(102,64,0,0.3)] text-[16px] font-bold"
-    style={{ fontFamily: 'Lato', lineHeight: '100%' }}
-  >
-    BOOKS
-  </h4>
-  <ul
-    className="space-y-3 text-[rgba(102,64,0,1)] text-[16px] font-bold"
-    style={{ fontFamily: 'Lato', lineHeight: '100%' }}
-  >
-    <li>
-      <a href="#" className="hover:text-amber-900 font-bold" style={{ fontFamily: 'Lato' }}>
-        Circle of Men
-      </a>
-    </li>
-    <li>
-      <a href="#" className="hover:text-amber-900 font-bold" style={{ fontFamily: 'Lato' }}>
-        The Mandala
-        <br />
-        <span style={{ paddingTop: '4px', display: 'inline-block' }}>Within</span>
-      </a>
-    </li>
-  </ul>
+            <h4
+              className="uppercase mb-4 tracking-wide text-[rgba(102,64,0,0.3)] text-[16px] font-bold"
+              style={{ fontFamily: 'Lato', lineHeight: '100%' }}
+            >
+              BOOKS
+            </h4>
+            <ul
+              className="space-y-3 text-[rgba(102,64,0,1)] text-[16px] font-bold"
+              style={{ fontFamily: 'Lato', lineHeight: '100%' }}
+            >
+              <li>
+                <a href="#" className="hover:text-amber-900 font-bold" style={{ fontFamily: 'Lato' }}>
+                  Circle of Men
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-amber-900 font-bold" style={{ fontFamily: 'Lato' }}>
+                  The Mandala
+                  <br />
+                  <span style={{ paddingTop: '4px', display: 'inline-block' }}>Within</span>
+                </a>
+              </li>
+            </ul>
 
-  {/* SVG and upcoming text below the list */}
-  <div className="flex justify-center mt-6">
-    <svg
-      width="19"
-      height="37"
-      viewBox="0 0 19 37"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M13.3719 6.47697C14.1181 7.47663 11.9109 7.5863 9.25879 6.68238L7.88924 6.21245C10.6535 10.0364 13.3068 13.5703 13.9014 18.2629C14.0593 19.5016 14.1574 19.7835 14.6053 20.2658C17.6788 23.566 19.476 30.2238 18.5421 34.7884C18.2035 36.4706 17.7314 37.0212 16.8713 36.7595C15.9505 36.4781 15.8671 36.2605 16.0417 34.4022C16.4716 30.0006 15.2144 23.239 13.8081 22.36C13.7818 22.3435 13.707 22.6095 13.6254 22.9446C12.5627 27.686 7.10119 28.0599 4.23339 23.5827C1.7965 19.7612 6.21521 15.4994 10.5628 17.4631C12.4596 18.3178 10.1154 12.4765 6.659 7.74183C5.89004 6.69116 5.20291 5.80198 5.13713 5.76086C5.05831 5.71159 5.24153 6.76377 5.55231 8.07965C6.48422 12.1741 6.39454 13.6625 5.2578 13.5219C4.28062 13.3892 3.68739 12.4668 3.48961 10.7068C3.12326 7.46231 2.41557 4.99734 1.10634 2.26675C-0.453168 -0.969656 2.02763 -0.0256661 3.16417 1.40184C4.7698 3.45352 9.48798 5.9063 11.6475 5.78522C12.245 5.73583 13.0768 6.07186 13.3719 6.47697ZM9.26614 18.6017C6.36459 18.6819 5.22349 22.5836 7.46718 24.8134C8.87872 26.2106 11.2286 23.2115 11.3249 19.87C11.3433 19.1094 10.4758 18.5672 9.26614 18.6017Z"
-        fill="#CC7A00"
-        style={{ fill: 'color(display-p3 0.8000 0.4800 0.0000)', fillOpacity: 1 }}
-      />
-    </svg>
-  </div>
-  <div
-    className="text-center uppercase font-bold text-[16px] mt-2"
-    style={{ fontFamily: 'Lato', color: 'rgba(102,64,0,0.3)', lineHeight: '100%' }}
-  >
-    upcoming
-  </div>
-</div>
+            {/* SVG and upcoming text below the list */}
+            <div className="flex justify-center mt-6">
+              <svg
+                width="19"
+                height="37"
+                viewBox="0 0 19 37"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M13.3719 6.47697C14.1181 7.47663 11.9109 7.5863 9.25879 6.68238L7.88924 6.21245C10.6535 10.0364 13.3068 13.5703 13.9014 18.2629C14.0593 19.5016 14.1574 19.7835 14.6053 20.2658C17.6788 23.566 19.476 30.2238 18.5421 34.7884C18.2035 36.4706 17.7314 37.0212 16.8713 36.7595C15.9505 36.4781 15.8671 36.2605 16.0417 34.4022C16.4716 30.0006 15.2144 23.239 13.8081 22.36C13.7818 22.3435 13.707 22.6095 13.6254 22.9446C12.5627 27.686 7.10119 28.0599 4.23339 23.5827C1.7965 19.7612 6.21521 15.4994 10.5628 17.4631C12.4596 18.3178 10.1154 12.4765 6.659 7.74183C5.89004 6.69116 5.20291 5.80198 5.13713 5.76086C5.05831 5.71159 5.24153 6.76377 5.55231 8.07965C6.48422 12.1741 6.39454 13.6625 5.2578 13.5219C4.28062 13.3892 3.68739 12.4668 3.48961 10.7068C3.12326 7.46231 2.41557 4.99734 1.10634 2.26675C-0.453168 -0.969656 2.02763 -0.0256661 3.16417 1.40184C4.7698 3.45352 9.48798 5.9063 11.6475 5.78522C12.245 5.73583 13.0768 6.07186 13.3719 6.47697ZM9.26614 18.6017C6.36459 18.6819 5.22349 22.5836 7.46718 24.8134C8.87872 26.2106 11.2286 23.2115 11.3249 19.87C11.3433 19.1094 10.4758 18.5672 9.26614 18.6017Z"
+                  fill="#CC7A00"
+                  style={{ fill: 'color(display-p3 0.8000 0.4800 0.0000)', fillOpacity: 1 }}
+                />
+              </svg>
+            </div>
+            <div
+              className="text-center uppercase font-bold text-[16px] mt-2"
+              style={{ fontFamily: 'Lato', color: 'rgba(102,64,0,0.3)', lineHeight: '100%' }}
+            >
+              upcoming
+            </div>
+          </div>
 
         </div>
       </div>
@@ -174,7 +174,7 @@ export default function MandalaFooter() {
         <div className="flex justify-center space-x-4 mb-3">
           {/* Facebook */}
           <a
-            href="#"
+            href="https://www.facebook.com/clay.boykin/"
             className="flex items-center justify-center transition-colors"
           >
             <svg
@@ -193,7 +193,7 @@ export default function MandalaFooter() {
           </a>
           {/* LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/in/clayboykin"
             className="flex items-center justify-center transition-colors"
           >
             <svg
@@ -211,7 +211,7 @@ export default function MandalaFooter() {
           </a>
           {/* Youtube */}
           <a
-            href="#"
+            href="https://www.youtube.com/@ClayBoykin-Thought-Coach"
             className="flex items-center justify-center transition-colors"
           >
             <svg

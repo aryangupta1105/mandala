@@ -49,9 +49,12 @@ const MandalaHeader = () => {
 
                     {/* Book a Session Button - Desktop */}
                     <div className="hidden md:block">
-                        <button className="bg-[#664000] hover:bg-[#4d2f00] cursor-pointer text-white px-4 py-2 rounded-md font-medium transition-colors duration-200">
-                            Book a Session
-                        </button>
+                        <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                            <button className="bg-[#664000] hover:bg-[#4d2f00] cursor-pointer text-white px-4 py-2 rounded-md font-medium transition-colors duration-200">
+                                Book a Session
+                            </button>
+                        </a>
+
                     </div>
 
                     {/* Mobile menu button */}
@@ -89,9 +92,11 @@ const MandalaHeader = () => {
                                 Articles
                             </a>
                             <div className="pt-4">
-                                <button className="w-full bg-[#664000] hover:bg-[#4d2f00] cursor-pointer text-white px-6 py-2 rounded-md font-medium transition-colors duration-200">
-                                    Book a Session
-                                </button>
+                                <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                                    <button className="w-full bg-[#664000] hover:bg-[#4d2f00] cursor-pointer text-white px-6 py-2 rounded-md font-medium transition-colors duration-200">
+                                        Book a Session
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

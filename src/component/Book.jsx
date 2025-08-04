@@ -140,11 +140,13 @@ const MandalaWithinBook = () => {
                     </div>
 
                     {/* Button */}
-                    <button
-                        className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white rounded-lg text-lg font-medium transition-all duration-300 transform shadow-lg hover:shadow-xl w-full h-[56px]"
-                    >
-                        Book Now →
-                    </button>
+                    <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                        <button
+                            className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white rounded-lg text-lg font-medium transition-all duration-300 transform shadow-lg hover:shadow-xl w-full h-[56px]"
+                        >
+                            Book Now →
+                        </button>
+                    </a>
 
                     {/* Subtext */}
                     <p

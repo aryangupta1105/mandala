@@ -131,9 +131,11 @@ const FeelingLostSection = () => {
 
                 {/* CTA Button */}
                 <div className="mt-6 mb-3">
-                    <button className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform  shadow-lg hover:shadow-xl">
-                        Book Complimentary 1:1 Session
-                    </button>
+                    <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform  shadow-lg hover:shadow-xl">
+                            Book Complimentary 1:1 Session
+                        </button>
+                    </a>
                 </div>
 
                 {/* Bottom text */}

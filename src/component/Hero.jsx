@@ -38,7 +38,7 @@ const MandalaHeroSection = () => {
                                 />
                             </svg>
 
-                            For person seeking meaning beyond success
+                            For the person seeking meaning beyond success
                             <svg
                                 width="25"
                                 height="16"
@@ -269,9 +269,12 @@ const MandalaHeroSection = () => {
 
                     {/* CTA Button */}
                     <div className="-mt-2">
-                        <button className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform  shadow-lg hover:shadow-xl">
-                            Try a Free 20-Minute Session
-                        </button>
+                        <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+                            <button className="bg-[#CC7A00] hover:bg-[#664000] cursor-pointer text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform shadow-lg hover:shadow-xl">
+                                Try a Free 20-Minute Session
+                            </button>
+                        </a>
+
                         <p
                             className="mt-3 text-sm"
                             style={{

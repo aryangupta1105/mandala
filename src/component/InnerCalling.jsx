@@ -342,33 +342,34 @@ const InnerCallingSection = () => {
 
         {/* CTA Section */}
         <div className="text-center">
-          <button
-            className="text-[#CC7A00] text-lg font-medium cursor-pointer rounded-lg transition-all duration-300 transform"
-            style={{
-              width: "353px",
-              height: "56px",
-              paddingTop: "16px",
-              paddingRight: "24px",
-              paddingBottom: "16px",
-              paddingLeft: "24px",
-              background: "#CC7A001F",
-              borderRadius: "8px",
-              borderWidth: "1px",
-              borderStyle: "solid",
-              borderColor: "#CC7A0052",
-              boxShadow: "0px 8px 24px 0px #995C001A",
-              opacity: 1,
-              fontFamily: "'Lato', sans-serif",
-              fontWeight: 700,
-              fontStyle: "normal",
-              fontSize: "16px",
-              lineHeight: "100%",
-              letterSpacing: "0%",
-            }}
-          >
-            Book Your Complimentary Session
-          </button>
-
+          <a href="https://calendly.com/clayboykin" target="_blank" rel="noopener noreferrer">
+            <button
+              className="text-[#CC7A00] text-lg font-medium cursor-pointer rounded-lg transition-all duration-300 transform"
+              style={{
+                width: "353px",
+                height: "56px",
+                paddingTop: "16px",
+                paddingRight: "24px",
+                paddingBottom: "16px",
+                paddingLeft: "24px",
+                background: "#CC7A001F",
+                borderRadius: "8px",
+                borderWidth: "1px",
+                borderStyle: "solid",
+                borderColor: "#CC7A0052",
+                boxShadow: "0px 8px 24px 0px #995C001A",
+                opacity: 1,
+                fontFamily: "'Lato', sans-serif",
+                fontWeight: 700,
+                fontStyle: "normal",
+                fontSize: "16px",
+                lineHeight: "100%",
+                letterSpacing: "0%",
+              }}
+            >
+              Book Your Complimentary Session
+            </button>
+          </a>
           <p
             className="mt-2 text-center"
             style={{
@@ -387,7 +388,7 @@ const InnerCallingSection = () => {
         </div>
       </div>
 
-      
+
     </section>
   );
 };

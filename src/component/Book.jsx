@@ -106,7 +106,7 @@ const MandalaWithinBook = () => {
                 >
                     A book born of Clay's journey through transition, struggle, and soulful awakening.
                     <br />
-                    This isn't a manual. It's a mirror. A quiet invitation inward.
+                    This isn't a manual. It's a guide. A quiet invitation inward.
                 </p>
 
 

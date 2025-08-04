@@ -44,7 +44,7 @@ const MeetClayBoykin = () => {
                         {/* Photo Frame Container */}
                         <div className="relative ">
                             <img
-                                src="/meet.png"
+                                src="/meet1.png"
                                 alt="Clay - Office, Outdoor, Portrait, and Group Photos"
                                 className="w-full h-auto rounded-lg object-cover"
                             />

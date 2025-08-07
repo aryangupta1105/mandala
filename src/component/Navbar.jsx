@@ -41,7 +41,7 @@ const MandalaHeader = () => {
                         <a href="#" className="text-[#80500080] hover:text-[#996000] focus:text-[#996000] transition-colors">
                             Guidance
                         </a>
-                        <a href="#" className="text-[#80500080] hover:text-[#996000] focus:text-[#996000] transition-colors">
+                        <a href="/articles" className="text-[#80500080] hover:text-[#996000] focus:text-[#996000] transition-colors">
                             Articles
                         </a>
                     </nav>
@@ -88,7 +88,7 @@ const MandalaHeader = () => {
                             <a href="#" className="block text-[#80500080] hover:text-[#996000] focus:text-[#996000] transition-colors">
                                 Guidance
                             </a>
-                            <a href="#" className="block text-[#80500080] hover:text-[#996000] focus:text-[#996000]  transition-colors">
+                            <a href="/articles" className="block text-[#80500080] hover:text-[#996000] focus:text-[#996000]  transition-colors">
                                 Articles
                             </a>
                             <div className="pt-4">
